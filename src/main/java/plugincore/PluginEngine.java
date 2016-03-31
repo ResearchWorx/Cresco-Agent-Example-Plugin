@@ -137,7 +137,16 @@ public class PluginEngine {
                         Put your execution code here
                  */
 
-                System.out.println("\n\n\n\t\t" + config.getPath("message") + "\n\n\n");
+                System.out.println("\n\n\n\t" + config.getPath("message") + "\n\n");
+
+                System.out.println("\t\t[packet_trace_args]" + config.getPath("packet_trace_args"));
+                System.out.println("\t\t[location]" + config.getPath("location"));
+                System.out.println("\t\t[device]" + config.getPath("device"));
+                System.out.println("\t\t[amqp_server]" + config.getPath("amqp_server"));
+                System.out.println("\t\t[amqp_login]" + config.getPath("amqp_login"));
+                System.out.println("\t\t[amqp_password]" + config.getPath("amqp_password"));
+
+                System.out.println("\n\n");
 
                 clog.info("Completed Plugin Routine");
 
