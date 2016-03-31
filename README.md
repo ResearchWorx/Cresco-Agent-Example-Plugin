@@ -1,5 +1,5 @@
-Cresco-Agent-IRNC-Plugin
-========================
+Cresco-Agent-Example-Plugin
+===========================
 
 ### Status
 [![Build Status](http://128.163.188.129:9998/buildStatus/icon?job=Cresco-Agent-Example-Plugin)](http://128.163.188.129:9998/job/Cresco-Agent-Example-Plugin/)
